@@ -51,7 +51,7 @@ function Header(){
 
         <div className="midHeader">
         <a href="/#cardd"> <p>Browse Fundraisers</p> </a>
-        <button> <a target="_blank" href="https://technova.gitbook.io/fund-eth/"><p>How it works?</p></a>  </button>
+        <button> <a target="_blank" href="https://fund-eth.gitbook.io/fund-eth/"><p>How it works?</p></a>  </button>
         <p>{properTime}</p>
         </div>
         {campaignButton?(<Popup className="HEADER_startCamp" trigger={<div className="endHeader">
